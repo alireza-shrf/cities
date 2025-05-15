@@ -8,4 +8,13 @@ function getlondon(){
     cityname.innerHTML=london[0];
     desc.innerHTML=london[1]
 }
-getlondon()
+getlondon();
+
+function getparis(){
+    cityname.innerHTML=paris[0];
+    desc.innerHTML=paris[1]
+}
+function gettokyo(){
+    cityname.innerHTML=tokyo[0];
+    desc.innerHTML=tokyo[1]
+}
