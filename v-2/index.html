@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript Objects</h1>
+    <h2>Creating an Object</h2>
+
+    <p id="demo"></p>
+    <img src="" alt="" id="carImage">
+    <script>
+        // Create an Object:
+        const cars =[ { carType: "Fiat", model: "500", color: "white", carImage: "https://venteautoprestige.com/wp-content/uploads/2024/03/Toyota-Supra-MK4-blanche-trois-quarts-avant.webp" },
+            { carType: "Nysan", model: "GTR-2015", color: "Black", carImage: "https://mobile.guideautoweb.com/constructeurs/nissan/gt-r/2015/galerie/?im=1" }
+        ];
+
+        // Display Data from the Object:
+        document.getElementById("demo").innerHTML =
+            "The car type is " + cars[0].carType + "<br>" +
+            "The car model is:" + cars[0].model;
+
+            document.getElementById("carImage").src=cars[0].carImage;
+
+
+
+
+            
+    </script>
+
+</body>
+
+</html>
